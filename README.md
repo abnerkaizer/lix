@@ -1,7 +1,7 @@
 # Lix
 A simple implementation of the readability test (Lix)
 
-LIX = A/B + (c*100)/A, where
+LIX = A/B + (C*100)/A, where
 
 A is the number of words,
 
