@@ -1,7 +1,9 @@
 [package]
-name = "lix"
+name = "actual_lix"
 version = "0.1.0"
 edition = "2021"
+description = "A simple implementation of the readability test (Lix)"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

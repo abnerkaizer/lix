@@ -1,3 +1,6 @@
+//! LIX
+//!
+//! Lix Readability Test: https://en.wikipedia.org/wiki/Lix_(readability_test)
 pub fn lix(a: usize, b: usize, c: usize) -> usize {
     let lix_return: usize = a / b + (c * 100) / a;
     lix_return
