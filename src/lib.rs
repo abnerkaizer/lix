@@ -1,8 +1,8 @@
 //! LIX
 //!
-//! Lix Readability Test: https://en.wikipedia.org/wiki/Lix_(readability_test)
-pub fn lix(a: usize, b: usize, c: usize) -> usize {
-    let lix_return: usize = a / b + (c * 100) / a;
+//! Lix Readability Test: <https://en.wikipedia.org/wiki/Lix_(readability_test)>
+pub fn lix(a: f64, b: f64, c: f64) -> f64 {
+    let lix_return: f64 = a / b + (c * 100f64) / a;
     lix_return
 }
 
@@ -12,7 +12,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = lix(400_000, 2_500, 50_000);
-        assert_eq!(result, 172);
+        let result = lix(400_000.0, 2_500.0, 50_000.0);
+        assert_eq!(result, 172.5);
     }
 }
